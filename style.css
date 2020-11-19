@@ -1,0 +1,404 @@
+body{
+    margin: 0;
+    background: #e0091b;
+}
+
+@font-face{
+    font-family: mulish;
+    src: url('font/Mulish-VariableFont_wght.ttf')
+}
+@font-face{
+    font-family: mulishblack;
+    src: url('font/Mulish-Black.ttf')
+}
+
+
+
+/*___________________________________________________________________________*/
+/*GLOBAL INTERCACE*/
+/*____________________________________________________________________________*/
+
+
+
+/*NAVBAR*/ /*_____________________________________________*/
+.navbar li a{
+    font-size: 18px !important;
+    font-family: mulish !important;
+    font-weight: 400 !important;
+}
+
+.masuk {
+    margin-top: 0px;
+    border-radius: 0px;
+    border-color: #ffffff;
+    font-family: mulish;
+    font-weight: 600;
+    color:#ffffff;
+    background: #e0091b;
+    padding: 14px 32px 14px 32px;
+}
+.masuk:hover {
+    border-color: #1a1a1a;
+    color:#ffffff;
+    background: #1a1a1a;
+}
+.daftar{
+    margin-top: 0px;
+    border-radius: 0px;
+    border-color: #ffffff;
+    font-family: mulish;
+    font-weight: 600;
+    color:#e0091b;
+    background: #ffffff;
+    padding: 14px 32px 14px 32px;
+}
+.daftar:hover{
+    border-color: #1a1a1a;
+    color:#ffffff;
+    background: #1a1a1a;
+}
+
+/*SECTION HERO*/ /*_____________________________________________*/
+.sectionhero{
+    height: 402px;
+    background: linear-gradient( #e0091b, #f40008);
+}
+
+.boxhero1{
+    margin-left: 122px;
+    margin-bottom: 100px;
+}
+
+.welcometext{
+    font-family: mulishblack;
+    color:#ffffff;
+}
+
+.herotext{
+    font-family: mulish;
+    color:#ffffff;
+}
+.herotext p{
+    padding-right: 142px;
+    margin-top: 12px;
+}
+
+.btn-outline-primary{
+    margin-top: 10px;
+    border-radius: 0px;
+    border-color: #ffffff;
+    font-family: mulish;
+    font-weight: 600;
+    color:#ff1010;
+    background-color: #ffffff;
+    padding: 14px 32px 14px 32px;
+
+}
+.btn-outline-primary:hover{
+    background: #252525;
+    border-radius: 0px;
+    border-color:   #1a1a1a;
+    color:#ffffff;
+}
+/*______________________________________________________________*/
+
+
+
+
+/*SECTION TENTANG*/ /*___________________________*/
+.animlogo2 img{
+    margin-top: 0px;
+}
+
+.section1tentang {
+    height: 762px;
+    background: #f40008;
+}
+
+.section1tentang .s1tb {
+    font-family: mulish;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    position : relative;
+    margin-top: -220px;
+}
+
+.section1tentang .s1tc {
+    padding-left: 242px;
+    padding-right: 242px;
+    font-family: mulish;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    position : relative;
+}
+
+/*MOBILE*/
+.mobiletexthead p{
+    font-family: mulish;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.mobiletextcaption p{
+    font-family: mulish;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.section1tentangmobile{
+    height: 402px;
+    background: #f40008;
+}
+/*_____________________________________________*/
+
+
+
+
+
+
+
+/*SECTION BRAND*/ /*_____________________________________________*/
+.section2brand {
+    height: 782px;
+    background: #fdfbfb;
+}
+
+.brandtext h1{
+    font-family: mulishblack;
+    color: #f40008;
+    font-size: 92px;
+}
+
+.brandcaption {
+    font-family: mulish;
+    font-size: 18px;
+    font-weight: bold;
+    color:  #f40008;
+    padding-right: 120px;
+}
+
+.imagebrand img{
+    margin-top: 122px;
+    margin-bottom: 122px;
+}
+/*______________________________________________________________*/
+
+
+
+
+
+
+/*SECTION VISI*//*_________________________________*/
+.section3visi {
+    height: 782px;
+    background: #f40008;
+}
+
+.visitext h1{
+    font-family: mulishblack;
+    color:#ffffff;
+    font-size: 92px;
+}
+
+.visicaption {
+    font-family: mulish;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-right: 102px;
+}
+
+.imagevisi img{
+    margin-left: 112px;
+    margin-top: 122px;
+    margin-bottom: 122px;
+}
+
+.boxvisi{
+    margin-left: 82px;
+    margin-bottom: 100px;
+}
+/*_________________________________________________*/
+
+
+
+
+
+
+/*SECTION SUMMARY*//*_____________________________________________*/
+.section4summary{
+    height: 782px;
+    background: #f40008;
+}
+
+.summarytext p {
+    font-family: mulishblack;
+    font-size: 60pt;
+    font-weight: 900;
+    color: #ffffff;
+    margin-left: 100px;
+
+}
+/*________________________________________________________________*/
+
+
+
+
+
+/*FOOTER*/
+.kaki {
+    height: 300px;
+    background: #f40008;
+    padding-top: 140px;
+    margin-bottom: ;
+    font-family: mulish;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*_____________________________________________*/
+/*MOBILE INTERFACE*/
+/*_____________________________________________*/
+
+@media (max-width: 960px) {
+    
+    /*Heromobile*/
+    .sectionhero{
+        height: 302px;
+        background: linear-gradient( #e0091b, #f40008);
+    }
+    .welcometext h1{
+        margin: 30px 0px 0px 0px;
+        font-size: 30px;
+    }
+    .boxhero1{
+        margin: 0px 30px 0px 30px;
+    }
+    .herotext p{
+        padding-right: 0px;
+    }
+
+
+
+
+
+    /*tentangmobile*/
+    .section1tentang {
+        height: 322px;
+        background: #f40008;
+    }
+    .headtentangmobile {
+        font-family: mulish;
+        font-size: 20px;
+        font-weight: 700;
+        color: #ffffff;
+        position: relative;
+        margin-top: -62px;
+    }
+    .texttentangmobile p{
+        font-family: mulish;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 0px 10px 0px 10px;
+        color: #ffffff;
+    }
+
+
+
+
+    /*Brandmobile*/
+    .section2brand {
+        height: 682px;
+    }
+    .brandtext h1{
+        font-size: 40pt;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+    .brandcaption{
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+    .brandcaption p{
+        font-size: 16px;
+        padding: 20px 0px 0px 0px;
+    }
+    .mobilebrand img {
+        margin-top: 62px;
+        padding: 0px 0px 0px 0px;
+    }
+
+
+
+
+    /*Visimobile*/
+    .section3visi {
+        height: 782px;
+        background: #f40008;
+    }
+    .visiimagemobile img{
+        margin-top: 62px;
+    }
+    .visitext h1{
+        font-size: 40pt;
+        padding: 0px 0px 0px 8px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .visicaption{
+        font-size: 16px;
+        padding: 20px 0px 0px 0px;
+    }
+    .boxvisi{
+        padding: 0px 0px 0px 0px;
+        margin: 42px 44px 0px 44px;
+    }
+
+
+
+
+    .section4summary{
+        height: 182px;
+        background: #f40008;
+        
+    }
+    .summarytext p{
+        font-size:26px;
+        padding: 20px 0px 0px 0px;
+        margin: 0px 32px 0px 32px;
+    }
+    .kaki p{
+        font-size: 12pt;
+        margin: 0px 32px 0px 32px;
+    }
+}
+/*_____________________________________________*/
+
